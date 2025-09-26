@@ -44,7 +44,7 @@ The following API endpoints are available:
     ./gradlew bootRun
     ```
 
-4.  The application will start on `http://localhost:8082`.
+4.  The application will start on `http://localhost:8083`.
 
 ## 5. Accessing the Application
 
@@ -52,13 +52,13 @@ The following API endpoints are available:
 
 Once the application is running, you can access the interactive API documentation here:
 
-- **URL**: [http://localhost:8082/swagger-ui.html](http://localhost:8082/swagger-ui.html)
+- **URL**: [http://localhost:8083/swagger-ui.html](http://localhost:8083/swagger-ui.html)
 
 ### Basic Frontend
 
 A basic user interface is also provided to interact with the backend:
 
-- **URL**: [http://localhost:8082/](http://localhost:8082/)
+- **URL**: [http://localhost:8083/](http://localhost:8083/)
 
 ## 6. Example API Requests (cURL)
 
@@ -67,7 +67,7 @@ Here are some example `curl` commands to interact with the API.
 ### Create a Floor
 
 ```bash
-curl -X POST "http://localhost:8082/floors" \
+curl -X POST "http://localhost:8083/floors" \
 -H "Content-Type: application/json" \
 -d '{
   "floorNumber": 1
@@ -78,7 +78,7 @@ curl -X POST "http://localhost:8082/floors" \
 
 ```bash
 # First, create a floor and note its ID (e.g., 1)
-curl -X POST "http://localhost:8082/slots" \
+curl -X POST "http://localhost:8083/slots" \
 -H "Content-Type: application/json" \
 -d '{
   "slotNumber": 101,
@@ -91,14 +91,14 @@ curl -X POST "http://localhost:8082/slots" \
 
 ```bash
 # Replace with your desired start and end times
-curl -X GET "http://localhost:8082/reservations/availability?startTime=2025-10-01T10:00:00&endTime=2025-10-01T12:00:00"
+curl -X GET "http://localhost:8083/reservations/availability?startTime=2025-10-01T10:00:00&endTime=2025-10-01T12:00:00"
 ```
 
 ### Reserve a Slot
 
 ```bash
 # Use a slotId from the availability check
-curl -X POST "http://localhost:8082/reservations/reserve" \
+curl -X POST "http://localhost:8083/reservations/reserve" \
 -H "Content-Type: application/json" \
 -d '{
   "slotId": 1,
@@ -112,7 +112,7 @@ curl -X POST "http://localhost:8082/reservations/reserve" \
 
 ```bash
 # Replace {id} with a valid reservation ID
-curl -X GET "http://localhost:8082/reservations/1"
+curl -X GET "http://localhost:8083/reservations/1"
 ```
 
 ## 7. Code Structure
