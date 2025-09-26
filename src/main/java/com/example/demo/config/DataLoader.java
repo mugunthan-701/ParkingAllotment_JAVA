@@ -25,10 +25,10 @@ public class DataLoader implements CommandLineRunner {
             Floor floor1 = new Floor(1);
             floorRepository.save(floor1);
 
-            slotRepository.save(new Slot(1, floor1, VehicleType.CAR));
-            slotRepository.save(new Slot(2, floor1, VehicleType.CAR));
-            slotRepository.save(new Slot(3, floor1, VehicleType.MOTORCYCLE));
-            slotRepository.save(new Slot(4, floor1, VehicleType.TRUCK));
+            slotRepository.save(new Slot(1, floor1, VehicleType.FOUR_WHEELER));
+            slotRepository.save(new Slot(2, floor1, VehicleType.FOUR_WHEELER));
+            slotRepository.save(new Slot(3, floor1, VehicleType.TWO_WHEELER));
+            slotRepository.save(new Slot(4, floor1, VehicleType.FOUR_WHEELER));
         }
     }
 }

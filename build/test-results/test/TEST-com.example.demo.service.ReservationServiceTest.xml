@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.demo.service.ReservationServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-09-24T06:46:20.265Z" hostname="Mugunthans-MacBook-Air.local" time="0.093">
+<testsuite name="com.example.demo.service.ReservationServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-09-26T10:46:45.633Z" hostname="Mugunthans-MacBook-Air.local" time="0.085">
   <properties/>
-  <testcase name="testCancelReservation_NotFound()" classname="com.example.demo.service.ReservationServiceTest" time="0.078"/>
-  <testcase name="testCreateReservation_InvalidTimeRange()" classname="com.example.demo.service.ReservationServiceTest" time="0.002"/>
-  <testcase name="testCreateReservation_Conflict()" classname="com.example.demo.service.ReservationServiceTest" time="0.003"/>
+  <testcase name="testCancelReservation_NotFound()" classname="com.example.demo.service.ReservationServiceTest" time="0.069"/>
+  <testcase name="testCreateReservation_InvalidTimeRange()" classname="com.example.demo.service.ReservationServiceTest" time="0.001"/>
+  <testcase name="testCreateReservation_Conflict()" classname="com.example.demo.service.ReservationServiceTest" time="0.002"/>
   <testcase name="testCreateReservation_Exceeds24Hours()" classname="com.example.demo.service.ReservationServiceTest" time="0.001"/>
-  <testcase name="testCreateReservation()" classname="com.example.demo.service.ReservationServiceTest" time="0.002"/>
-  <testcase name="testGetReservationById()" classname="com.example.demo.service.ReservationServiceTest" time="0.002"/>
-  <testcase name="testCancelReservation()" classname="com.example.demo.service.ReservationServiceTest" time="0.004"/>
-  <testcase name="testCreateReservation_SlotNotFound()" classname="com.example.demo.service.ReservationServiceTest" time="0.001"/>
+  <testcase name="testCreateReservation()" classname="com.example.demo.service.ReservationServiceTest" time="0.001"/>
+  <testcase name="testGetReservationById()" classname="com.example.demo.service.ReservationServiceTest" time="0.001"/>
+  <testcase name="testCancelReservation()" classname="com.example.demo.service.ReservationServiceTest" time="0.005"/>
+  <testcase name="testCreateReservation_SlotNotFound()" classname="com.example.demo.service.ReservationServiceTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
