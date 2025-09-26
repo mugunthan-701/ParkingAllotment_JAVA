@@ -52,13 +52,13 @@ The following API endpoints are available:
 
 Once the application is running, you can access the interactive API documentation here:
 
-- **URL**: [http://localhost:8081/swagger-ui.html](http://localhost:8081/swagger-ui.html)
+- **URL**: [http://localhost:8081/swagger-ui.html](http://localhost:8082/swagger-ui.html)
 
 ### Basic Frontend
 
 A basic user interface is also provided to interact with the backend:
 
-- **URL**: [http://localhost:8081/](http://localhost:8081/)
+- **URL**: [http://localhost:8081/](http://localhost:8082/)
 
 ## 6. Example API Requests (cURL)
 
